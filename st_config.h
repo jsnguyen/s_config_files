@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "monospace:size=12";
 static int borderpx = 2;
 
 /*
@@ -86,7 +86,7 @@ unsigned int tabspaces = 8;
 /* gruvbox-dark colorscheme */
 
 static const char *colorname[] = {
-  "#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f */
+  "#282a36", /* hard contrast: #1d2021 / soft contrast: #32302f */
   "#cc241d",
   "#98971a",
   "#d79921",
@@ -101,7 +101,7 @@ static const char *colorname[] = {
   "#83a598",
   "#d3869b",
   "#8ec07c",
-  "#ebdbb2",
+  "#f8f8f2",
 };
 
 /*
