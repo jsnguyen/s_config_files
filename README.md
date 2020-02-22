@@ -7,5 +7,6 @@ mv st_config.h config.h && mv config.h ~/st
 
 * `slock@.service` should be renamed and moved to  `/etc/systemd/system/slock@USERNAME.service`
 
+* `.conf` files are for lid close hibernate/sleep.
 * `logind.conf` goes in `/etc/systemd`
 * `sleep.conf` goes in `/etc/systemd`
